@@ -1,0 +1,36 @@
+.team {
+  background: #111;
+  color: #fff;
+  width: 100%;
+  padding: 80px 0;
+}
+
+.team .text {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 500px;
+  padding: 20px 0;
+}
+
+.team h2 {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.team .carouse1 .card {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.team .carouse1 .card img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid crimson;
+}

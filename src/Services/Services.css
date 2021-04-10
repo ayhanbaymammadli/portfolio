@@ -1,0 +1,63 @@
+.services {
+  background: #111;
+  color: #fff;
+}
+
+.services .title {
+  font-size: 25px;
+  font-weight: 600px;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.services .services-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services .services-content .card {
+  width: calc(28% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 25px;
+  transition: all 0.3s ease;
+}
+
+.services .services-content .card:hover {
+  background: crimson;
+}
+
+.services .services-content .card:hover i {
+  color: #fff;
+}
+
+.services .services-content .card i {
+  padding-bottom: 20px;
+  font-size: 50px;
+  color: crimson;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 991px) {
+  .services .services-content .card {
+    width: 33%;
+    margin-bottom: 20px;
+  }
+  .team .carouse1 .card img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 660px) {
+  .services .services-content .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .services .title {
+    padding-bottom: 15px;
+  }
+}
